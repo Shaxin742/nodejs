@@ -1,0 +1,17 @@
+{
+  "name": "adduser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chinese-random-name": "^1.0.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.2",
+    "node-xlsx": "^0.14.1"
+  }
+}
