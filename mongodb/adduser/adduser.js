@@ -63,14 +63,15 @@ function dealData(user1) {
       nickname: INSERTNAME,
       head_url: 'http://w4.8zyl.cn:9099/u/' + (Math.floor(Math.random() * 2000)) + '.jpg',
       mobile: tel,
-      mail: tel + "@163.com",
+      mail: "",
       purchases: games,
+      indx: indexs,
       comments: [],
       notification: []
     }
     resolve()
   }).then(function (result) {
-    if (indexs <= 1500000) {
+    if (indexs <= 1601584) {
       insertData(user1, data)
     }else{
       db.close();

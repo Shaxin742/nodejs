@@ -1,7 +1,6 @@
 var mysql = require('mysql');
 var fs = require('fs');
 var connection = mysql.createConnection({
-  // host: "192.168.107.84",    // 主机地址
   host: "10.0.10.5",    // 主机地址
   port: 3306,                 // 端口
   user: "root",               // 数据库访问账号
